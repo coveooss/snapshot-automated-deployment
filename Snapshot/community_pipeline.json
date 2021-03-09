@@ -1,0 +1,1524 @@
+{
+  "metadata": {
+    "schemaVersion": "v1"
+  },
+  "resources": {
+    "FEATURED_RESULT": [
+      {
+        "resourceName": "@permanentid=\"0971878fbb9f306efb93e0066dbdadcca55bf5dd6496b855819cfb600275\"_bobvac",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "0971878fbb9f306efb93e0066dbdadcca55bf5dd6496b855819cfb600275"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$context_[demointerests]_contains_\"versa\"_)_iZkurG }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"0971878fbb9f306efb93e0066dbdadcca55bf5dd6496b855819cfb600275\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"2ff6e6434478c8cb65983bc793b7fcf534862b56\"_hAimwq",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "2ff6e6434478c8cb65983bc793b7fcf534862b56"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$context_[demointerests]_contains_\"24/7_Heart_Rate_Tracking\"_)_vNXqxv }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"2ff6e6434478c8cb65983bc793b7fcf534862b56\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"3589e08ae06dc93927c4bef03b85a5c1aaa5f232\"_8Hnkeh",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "3589e08ae06dc93927c4bef03b85a5c1aaa5f232"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_)_zkXcPy }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"3589e08ae06dc93927c4bef03b85a5c1aaa5f232\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"37d315e683a45c84c2cd408b827220eb70977ca6\"_03g6bU",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "37d315e683a45c84c2cd408b827220eb70977ca6"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[demoscenario]_is_true_uM4YBv }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"37d315e683a45c84c2cd408b827220eb70977ca6\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"50b304902ebcf2c81fe52610f5d5d85708a3a9ce\"_ioUVMN",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "50b304902ebcf2c81fe52610f5d5d85708a3a9ce"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"50b304902ebcf2c81fe52610f5d5d85708a3a9ce\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"62dd9b0502e3eb731bbc46253e0bf34800009a17\"_EdR9Wd",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "62dd9b0502e3eb731bbc46253e0bf34800009a17"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"62dd9b0502e3eb731bbc46253e0bf34800009a17\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"9faced2b25fac0cd9c7cff06ae24b5559e2a5d9a183cb9219c9664c3b7e6\"_dBMoSI",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "9faced2b25fac0cd9c7cff06ae24b5559e2a5d9a183cb9219c9664c3b7e6"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"9faced2b25fac0cd9c7cff06ae24b5559e2a5d9a183cb9219c9664c3b7e6\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@permanentid=\"caaeca018e958d9a89e086105a5ec2ec4bc2d74c\"_skYzvp",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "caaeca018e958d9a89e086105a5ec2ec4bc2d74c"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$context_[demointerests]_contains_\"Built-In_GPS\"_)_vEnq8y }}"
+          },
+          "includeInFacets": false,
+          "name": "@permanentid=\"caaeca018e958d9a89e086105a5ec2ec4bc2d74c\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Blaze_Watch_Quick_Start_Instructions_Apanot",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "queryExpression": "@sfarticlenumber==000001015"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$context_[demointerests]_contains_\"Blaze\"_)_hIoWnS }}"
+          },
+          "includeInFacets": false,
+          "name": "Blaze Watch Quick Start Instructions",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Default_recommendations_for_IPX_BvvPsK",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "queryExpression": "@sfarticlenumber==000001022"
+            },
+            {
+              "uniqueId": "1a366a8d8b1f9e8e3f95968b3a53bccee440d4101c0f0a56350e7b86914d"
+            },
+            {
+              "uniqueId": "59fbc9d72e9d3e96de09df07fb04fd921cb2c90d1ac7534a9de0fca880e5"
+            },
+            {
+              "queryExpression": "@sfarticlenumber==000001015"
+            },
+            {
+              "uniqueId": "a614606fb3aeffa96693dbde0354e213e30e655c972e2a0daadbef16137e"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$searchHub_is_\"mySpeedbit\"_OtbjLX }}"
+          },
+          "includeInFacets": false,
+          "name": "Default recommendations for IPX",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Download_the_Speedbit_App_from_the_Apple_App_Store_5YP2RC",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "queryExpression": "@sfarticlenumber==000001013"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[demoscenario]_is_true_uM4YBv }}"
+          },
+          "includeInFacets": false,
+          "name": "Download the Speedbit App from the Apple App Store",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Feature_bug_fix_eNjT50",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "matchAdvancedQuery": true,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "error 123",
+              "matchOperator": {
+                "is": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "includeInFacets": false,
+          "name": "Feature bug fix",
+          "matchQuery": false,
+          "migrated": false,
+          "targets": [
+            {
+              "uniqueId": "cea5207556156be534ac8cd884189bfd845776273f4b059137bed2fada31"
+            }
+          ],
+          "enabled": true
+        }
+      },
+      {
+        "resourceName": "Featured_for_query_\"pair\"_in_Speedbit_IPX_X7SR7G",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "queryExpression": "@sfarticlenumber==000001019"
+            },
+            {
+              "uniqueId": "3589e08ae06dc93927c4bef03b85a5c1aaa5f232"
+            },
+            {
+              "uniqueId": "9faced2b25fac0cd9c7cff06ae24b5559e2a5d9a183cb9219c9664c3b7e6"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$searchHub_is_\"mySpeedbit\"_OtbjLX }}"
+          },
+          "includeInFacets": false,
+          "name": "Featured for query \"pair\" in Speedbit IPX",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Get_the_Speedbit_App_on_Google_Play_biHAvr",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "queryExpression": "@sfarticlenumber==000001014"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[demoscenario]_is_true_uM4YBv }}"
+          },
+          "includeInFacets": false,
+          "name": "Get the Speedbit App on Google Play",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Getting_Started_with_your_New_Speedbit_Blaze_kqUYwP",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "How do I workout",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "includeInFacets": false,
+          "name": "Getting Started with your New Speedbit Blaze",
+          "description": "",
+          "matchQuery": false,
+          "migrated": false,
+          "targets": [
+            {
+              "queryExpression": "@sfarticlenumber==000001022"
+            }
+          ],
+          "enabled": true
+        }
+      },
+      {
+        "resourceName": "How_to_track_your_heart_rate_with_Speedbit_Blaze_Hq1QQI",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "6afd92ea4053668590ce651b492c4e7398cb497c0ea32d79e380cf7928bb"
+            },
+            {
+              "uniqueId": "55c8e99aaf72b4d9f279f5e398a6bad3367950ff"
+            },
+            {
+              "uniqueId": "f5e1bcb9e207adefb315be107e51ec857340a3187a92912f5066394787a5"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": true,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "heart rate",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_)_zkXcPy }}"
+          },
+          "includeInFacets": false,
+          "name": "How to track your heart rate with Speedbit Blaze",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Speedbit_Blaze:_How_To_Track_Heart_Rate_M9MKva",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "matchAdvancedQuery": true,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "heart rate",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"\"_MWI1sq }}"
+          },
+          "includeInFacets": false,
+          "name": "Speedbit Blaze: How To Track Heart Rate",
+          "matchQuery": false,
+          "migrated": false,
+          "targets": [
+            {
+              "uniqueId": "6afd92ea4053668590ce651b492c4e7398cb497c0ea32d79e380cf7928bb"
+            }
+          ],
+          "enabled": true
+        }
+      },
+      {
+        "resourceName": "Speedbit_Blaze:_How_to_Pair_to_Bluetooth_Devices_60rFhn",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "cc488ddc0d0011d7e255259bfe901e542992ef763d9ce6be5feeca089c2e"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+          },
+          "includeInFacets": false,
+          "name": "Speedbit Blaze: How to Pair to Bluetooth Devices",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Speedbit_Blaze_User_Manual.pdf_1LFrrk",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "description": "",
+          "matchQuery": false,
+          "targets": [
+            {
+              "uniqueId": "c7d5472c41e43005e70008a81b6deb49820686a4b722b9ed2e68f52ac56f"
+            }
+          ],
+          "enabled": true,
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "pair",
+              "matchOperator": {
+                "contains": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+          },
+          "includeInFacets": false,
+          "name": "Speedbit Blaze User Manual.pdf",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "Speedbit_Challenge_FAQ.pdf_scy5Hg",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "matchAdvancedQuery": false,
+          "defaultMatchOperator": {
+            "is": {}
+          },
+          "predicates": [
+            {
+              "basicQueryExpression": "dreamforce",
+              "matchOperator": {
+                "is": {}
+              },
+              "locale": {
+                "all": {}
+              }
+            }
+          ],
+          "includeInFacets": false,
+          "name": "Speedbit Challenge FAQ.pdf",
+          "description": "",
+          "matchQuery": false,
+          "migrated": false,
+          "targets": [
+            {
+              "uniqueId": "gmHxx4xDZ9OJwvSL"
+            }
+          ],
+          "enabled": true
+        }
+      }
+    ],
+    "FILTER": [
+      {
+        "resourceName": "filter_cq_`@source==(\"Atlassian_SpeedBit\",_\"Box_Speedbit\",_\"Community\",_\"Community\",_\"Help_Section\",_\"http://www.fitbit.com/\",_\"Jira_SpeedBit\",_\"Salesforce_Content\",_\"Sharepoint_Speedbit\",_\"Speedbit-Enterprise\",_\"Youtube_SpeedBit\")`_NsGBq5",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "filter",
+          "detailed": {
+            "expressions": [
+              "@source==(\"Atlassian SpeedBit\", \"Box Speedbit\", \"Community\", \"Community\", \"Help Section\", \"http://www.fitbit.com/\", \"Jira SpeedBit\", \"Salesforce Content\", \"Sharepoint Speedbit\", \"Speedbit-Enterprise\", \"Youtube SpeedBit\")"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "filter cq `@source==(\"Atlassian SpeedBit\", \"Box Speedbit\", \"Community\", \"Community\", \"Help Section\", \"http://www.fitbit.com/\", \"Jira SpeedBit\", \"Salesforce Content\", \"Sharepoint Speedbit\", \"Speedbit-Enterprise\", \"Youtube SpeedBit\")`",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "filter_cq_`NOT_@author==\"Kiley_Pratt\"`_JwzdUb",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "filter",
+          "detailed": {
+            "expressions": [
+              "NOT @author==\"Kiley Pratt\""
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "filter cq `NOT @author==\"Kiley Pratt\"`",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "filter_cq_`NOT_@confspacekey==(\"SPEEDT\")`_GIusiD",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "filter",
+          "detailed": {
+            "expressions": [
+              "NOT @confspacekey==(\"SPEEDT\")"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "filter cq `NOT @confspacekey==(\"SPEEDT\")`",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "filter_cq_`NOT_@sfrecordtypename==\"Parts\"`_mAdSkh",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "filter",
+          "detailed": {
+            "expressions": [
+              "NOT @sfrecordtypename==\"Parts\""
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "filter cq `NOT @sfrecordtypename==\"Parts\"`",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "filter_cq_`NOT_@uri=\"Speedbit_-_IT\"`_jXuDb0",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "filter",
+          "detailed": {
+            "expressions": [
+              "NOT @uri=\"Speedbit - IT\""
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "filter cq `NOT @uri=\"Speedbit - IT\"`",
+          "childrenCount": 0
+        }
+      }
+    ],
+    "ML_MODEL_ASSOCIATION": [
+      {
+        "resourceName": "ART_-_SN_TzHtvQ",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "enableWordCompletion": false,
+          "matchAdvancedExpression": true,
+          "modelId": "{{ ML_MODEL.ART_-_SN_rIHPQx }}",
+          "useAdvancedConfiguration": false,
+          "description": "",
+          "maxRecommendations": 5,
+          "matchBasicExpression": false,
+          "rankingModifier": 250,
+          "exclusive": false,
+          "cacheMaximumAge": "PT10S",
+          "intelligentTermDetection": false,
+          "customQueryParameters": {}
+        }
+      },
+      {
+        "resourceName": "CommunityDNE_YVT5l5",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "enableWordCompletion": false,
+          "matchAdvancedExpression": false,
+          "modelId": "{{ ML_MODEL.CommunityDNE_5Av97q }}",
+          "useAdvancedConfiguration": false,
+          "maxRecommendations": 0,
+          "matchBasicExpression": false,
+          "rankingModifier": 50,
+          "exclusive": false,
+          "cacheMaximumAge": "PT10S",
+          "intelligentTermDetection": false,
+          "customQueryParameters": {
+            "facetOrdering": {
+              "isEnabled": true
+            },
+            "facetValueOrdering": {
+              "isEnabled": true
+            },
+            "rankingBoost": {
+              "isEnabled": false
+            }
+          }
+        }
+      },
+      {
+        "resourceName": "default-model_W4z6Tv",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "enableWordCompletion": false,
+          "matchAdvancedExpression": true,
+          "modelId": "{{ ML_MODEL.default-model_8qTxAb }}",
+          "useAdvancedConfiguration": false,
+          "maxRecommendations": 5,
+          "matchBasicExpression": false,
+          "rankingModifier": 250,
+          "exclusive": false,
+          "cacheMaximumAge": "PT10S",
+          "intelligentTermDetection": false
+        }
+      },
+      {
+        "resourceName": "generated_35eb7318fb000bbd6528b62f711265dc_iRZjBw",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "enableWordCompletion": false,
+          "matchAdvancedExpression": false,
+          "modelId": "{{ ML_MODEL.generated_35eb7318fb000bbd6528b62f711265dc_OnxqqA }}",
+          "useAdvancedConfiguration": false,
+          "description": "",
+          "maxRecommendations": 10,
+          "matchBasicExpression": false,
+          "rankingModifier": 0,
+          "exclusive": false,
+          "cacheMaximumAge": "PT10S",
+          "intelligentTermDetection": false,
+          "customQueryParameters": {}
+        }
+      },
+      {
+        "resourceName": "mySpeedbit_D8oyIz",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "enableWordCompletion": false,
+          "matchAdvancedExpression": true,
+          "modelId": "{{ ML_MODEL.mySpeedbit_d6nZXq }}",
+          "useAdvancedConfiguration": false,
+          "maxRecommendations": 5,
+          "condition": "{{ QUERY_PIPELINE_CONDITION.when_$searchHub_is_\"mySpeedbit\"_OtbjLX }}",
+          "matchBasicExpression": false,
+          "rankingModifier": 250,
+          "exclusive": false,
+          "cacheMaximumAge": "PT10S",
+          "intelligentTermDetection": false
+        }
+      }
+    ],
+    "QUERY_PARAMETER": [
+      {
+        "resourceName": "override_query_partialMatch:true_OcLsG3",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "queryParamOverride",
+          "detailed": {
+            "partialMatch": true
+          },
+          "ready": false,
+          "description": "",
+          "definition": "override query partialMatch:true",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "override_query_partialMatchKeywords:3_NIto8H",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "queryParamOverride",
+          "detailed": {
+            "partialMatchKeywords": 3
+          },
+          "ready": false,
+          "description": "",
+          "definition": "override query partialMatchKeywords:3",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "override_query_partialMatchThreshold:\"1\"_s7p7NH",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "parent": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_$originalQuery_contains_\"rfp\"_PE1Wxj }}",
+            "description": "",
+            "definition": "when $originalQuery contains \"rfp\"",
+            "detailed": {
+              "condition": {
+                "operator": "contains",
+                "left": {
+                  "object": "originalQuery"
+                },
+                "right": "rfp"
+              }
+            }
+          },
+          "condition": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_$originalQuery_contains_\"rfp\"_PE1Wxj }}",
+            "description": "",
+            "definition": "when $originalQuery contains \"rfp\"",
+            "detailed": {
+              "condition": {
+                "operator": "contains",
+                "left": {
+                  "object": "originalQuery"
+                },
+                "right": "rfp"
+              }
+            }
+          },
+          "feature": "queryParamOverride",
+          "detailed": {
+            "partialMatchThreshold": "1"
+          },
+          "ready": false,
+          "description": "",
+          "definition": "override query partialMatchThreshold:\"1\"",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "override_query_partialMatchThreshold:\"2\"_HdGF4y",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "queryParamOverride",
+          "detailed": {
+            "partialMatchThreshold": "2"
+          },
+          "ready": false,
+          "description": "",
+          "definition": "override query partialMatchThreshold:\"2\"",
+          "childrenCount": 0
+        }
+      }
+    ],
+    "QUERY_PIPELINE": [
+      {
+        "resourceName": "community_syxdOx",
+        "parents": {},
+        "model": {
+          "description": "Salesforce Community pipeline + In-App (My Speedbit)",
+          "splitTestRatio": 0.5,
+          "splitTestTarget": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}",
+          "splitTestEnabled": false,
+          "isDefault": false,
+          "condition": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_or_$searchHub_is_\"mySpeedbit\"_or_$searchHub_is_\"communityfreesearch\"_or_$searchHub_is_\"speedbitenterprisesearch\"_)_hT4RvS }}",
+            "description": "",
+            "definition": "when ( $searchHub is \"x_searchpage_speedbit\" or $searchHub is \"speedbit-community-enterprise\" or $searchHub is \"mySpeedbit\" or $searchHub is \"communityfreesearch\" or $searchHub is \"speedbitenterprisesearch\" )",
+            "detailed": {
+              "condition": {
+                "operator": "or",
+                "left": {
+                  "operator": "is",
+                  "left": {
+                    "object": "searchHub"
+                  },
+                  "right": "x_searchpage_speedbit"
+                },
+                "right": {
+                  "operator": "or",
+                  "left": {
+                    "operator": "is",
+                    "left": {
+                      "object": "searchHub"
+                    },
+                    "right": "speedbit-community-enterprise"
+                  },
+                  "right": {
+                    "operator": "or",
+                    "left": {
+                      "operator": "is",
+                      "left": {
+                        "object": "searchHub"
+                      },
+                      "right": "mySpeedbit"
+                    },
+                    "right": {
+                      "operator": "or",
+                      "left": {
+                        "operator": "is",
+                        "left": {
+                          "object": "searchHub"
+                        },
+                        "right": "communityfreesearch"
+                      },
+                      "right": {
+                        "operator": "is",
+                        "left": {
+                          "object": "searchHub"
+                        },
+                        "right": "speedbitenterprisesearch"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "name": "community",
+          "splitTestName": "community-A/B-test-mirror"
+        }
+      }
+    ],
+    "RANKING_EXPRESSION": [
+      {
+        "resourceName": "@connectortype==LithiumCrawler_VTrvps",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "@connectortype==LithiumCrawler"
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "applyToEveryResult": false,
+          "rankingModifier": -75,
+          "name": "@connectortype==LithiumCrawler",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@connectortype==YouTubeCrawler_xAbQCR",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "@connectortype==YouTubeCrawler"
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"new-customer\"_dBwV0J }}"
+          },
+          "applyToEveryResult": false,
+          "rankingModifier": 250,
+          "name": "@connectortype==YouTubeCrawler",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@limessageissolution=\"False\"_SErgsH",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "@limessageissolution=\"False\""
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "applyToEveryResult": false,
+          "rankingModifier": -100,
+          "name": "@limessageissolution=\"False\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@limessageissolution=\"True\"_DnElpG",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "@limessageissolution=\"True\""
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "applyToEveryResult": false,
+          "rankingModifier": 100,
+          "name": "@limessageissolution=\"True\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@objecttypename==File_9jrxA8",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "@objecttypename==File"
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"sales-rep\"_qALjes }}"
+          },
+          "applyToEveryResult": false,
+          "rankingModifier": 250,
+          "name": "@objecttypename==File",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "@urihash==\"j3zQL8QJqwwjE25T\"_8tsvEY",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "@urihash==\"j3zQL8QJqwwjE25T\""
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context_[subject]_contains_\"Walking_dead_\"_0aUPUu }}"
+          },
+          "applyToEveryResult": false,
+          "rankingModifier": 1000,
+          "name": "@urihash==\"j3zQL8QJqwwjE25T\"",
+          "migrated": false
+        }
+      },
+      {
+        "resourceName": "blaze_Gy2kVy",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "constant": false,
+          "kind": "ranking_expression",
+          "description": "",
+          "targets": [
+            {
+              "queryExpression": "blaze"
+            }
+          ],
+          "enabled": true,
+          "defaultMatchOperator": {
+            "kind": "is"
+          },
+          "predicates": [],
+          "condition": {
+            "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[demoscenario]_is_true_uM4YBv }}"
+          },
+          "applyToEveryResult": false,
+          "rankingModifier": 250,
+          "name": "blaze",
+          "migrated": false
+        }
+      }
+    ],
+    "STOP_WORD": [
+      {
+        "resourceName": "stop_\"speedbit\"_O9ojPv",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "stop",
+          "detailed": {
+            "words": [
+              "speedbit"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "stop \"speedbit\"",
+          "childrenCount": 0
+        }
+      }
+    ],
+    "THESAURUS": [
+      {
+        "resourceName": "alias_\"floors\",_\"stairs\"_76oUEx",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "thesaurus",
+          "detailed": {
+            "sub-feature": "alias",
+            "from": [
+              "floors",
+              "stairs"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "alias \"floors\", \"stairs\"",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "expand_\"pair\"_to_\"bluetooth\"_vwKLSK",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "thesaurus",
+          "detailed": {
+            "sub-feature": "expand",
+            "from": [
+              "pair"
+            ],
+            "to": [
+              "bluetooth"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "expand \"pair\" to \"bluetooth\"",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "expand_\"phone\"_to_\"iphone\"_z9J1S9",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "thesaurus",
+          "detailed": {
+            "sub-feature": "expand",
+            "from": [
+              "phone"
+            ],
+            "to": [
+              "iphone"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "expand \"phone\" to \"iphone\"",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "expand_\"watch\"_to_\"blaze\"_A8CJUC",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "thesaurus",
+          "detailed": {
+            "sub-feature": "expand",
+            "from": [
+              "watch"
+            ],
+            "to": [
+              "blaze"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "expand \"watch\" to \"blaze\"",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "replace_\"heartrate\"_to_\"heart_rate\"_NdHiXE",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "feature": "thesaurus",
+          "detailed": {
+            "sub-feature": "replace",
+            "from": [
+              "heartrate"
+            ],
+            "to": [
+              "heart rate"
+            ]
+          },
+          "ready": false,
+          "description": "",
+          "definition": "replace \"heartrate\" to \"heart rate\"",
+          "childrenCount": 0
+        }
+      }
+    ],
+    "TRIGGER": [
+      {
+        "resourceName": "execute_notify(\"cancel_subscription\")_kmeykq",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "parent": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_$query_contains_\"cancel\"_mzrcC8 }}",
+            "description": "",
+            "definition": "when $query contains \"cancel\"",
+            "detailed": {
+              "condition": {
+                "operator": "contains",
+                "left": {
+                  "object": "query"
+                },
+                "right": "cancel"
+              }
+            }
+          },
+          "condition": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_$query_contains_\"cancel\"_mzrcC8 }}",
+            "description": "",
+            "definition": "when $query contains \"cancel\"",
+            "detailed": {
+              "condition": {
+                "operator": "contains",
+                "left": {
+                  "object": "query"
+                },
+                "right": "cancel"
+              }
+            }
+          },
+          "feature": "trigger",
+          "detailed": {
+            "type": "execute",
+            "content": {
+              "name": "notify",
+              "params": [
+                "cancel subscription"
+              ]
+            }
+          },
+          "ready": false,
+          "description": "",
+          "definition": "execute notify(\"cancel subscription\")",
+          "childrenCount": 0
+        }
+      },
+      {
+        "resourceName": "execute_questionAnswering()_KYBte2",
+        "parents": {
+          "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+          "parent": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w }}",
+            "description": "",
+            "definition": "when ( $query contains \"How to begin working out\" or $query contains \"How do I workout\" or $query contains \"How do I begin workout\" or $query contains \"How do I begin working out\" )",
+            "detailed": {
+              "condition": {
+                "operator": "or",
+                "left": {
+                  "operator": "contains",
+                  "left": {
+                    "object": "query"
+                  },
+                  "right": "How to begin working out"
+                },
+                "right": {
+                  "operator": "or",
+                  "left": {
+                    "operator": "contains",
+                    "left": {
+                      "object": "query"
+                    },
+                    "right": "How do I workout"
+                  },
+                  "right": {
+                    "operator": "or",
+                    "left": {
+                      "operator": "contains",
+                      "left": {
+                        "object": "query"
+                      },
+                      "right": "How do I begin workout"
+                    },
+                    "right": {
+                      "operator": "contains",
+                      "left": {
+                        "object": "query"
+                      },
+                      "right": "How do I begin working out"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "condition": {
+            "id": "{{ QUERY_PIPELINE_CONDITION.when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w }}",
+            "description": "",
+            "definition": "when ( $query contains \"How to begin working out\" or $query contains \"How do I workout\" or $query contains \"How do I begin workout\" or $query contains \"How do I begin working out\" )",
+            "detailed": {
+              "condition": {
+                "operator": "or",
+                "left": {
+                  "operator": "contains",
+                  "left": {
+                    "object": "query"
+                  },
+                  "right": "How to begin working out"
+                },
+                "right": {
+                  "operator": "or",
+                  "left": {
+                    "operator": "contains",
+                    "left": {
+                      "object": "query"
+                    },
+                    "right": "How do I workout"
+                  },
+                  "right": {
+                    "operator": "or",
+                    "left": {
+                      "operator": "contains",
+                      "left": {
+                        "object": "query"
+                      },
+                      "right": "How do I begin workout"
+                    },
+                    "right": {
+                      "operator": "contains",
+                      "left": {
+                        "object": "query"
+                      },
+                      "right": "How do I begin working out"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "feature": "trigger",
+          "detailed": {
+            "type": "execute",
+            "content": {
+              "name": "questionAnswering",
+              "params": []
+            }
+          },
+          "ready": false,
+          "description": "",
+          "definition": "execute questionAnswering()",
+          "childrenCount": 0
+        }
+      }
+    ]
+  }
+}

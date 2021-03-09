@@ -1,0 +1,46 @@
+# Deploys a Coveo Snapshot when merging in master
+
+name: CI
+
+on:
+  push:
+    branches: [master]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check-out the repository under $GITHUB_WORKSPACE, so the job can access it
+      - name: checkout repo content
+        uses: actions/checkout@v2
+
+      # Create a new Coveo Snapshot from the updated content of the master branch
+      - name: Create a new Coveo Snapshot from the updated content of the master branch
+        run: |
+          echo Zipping snapsho content into archive
+          zip -r Snapshot.zip $GITHUB_WORKSPACE/Snapshot
+      
+      # Install the required version of Python
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Runs the python deployment script
+      - name: execute deploy script 
+        env:
+          # Importing the secrets and using variables for easy configuration
+          API_KEY: ${{secrets.API_KEY}}
+          ORG_ID: snapshotdemoab6i8zqgq
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: |
+          python deploy.py $ORG_ID $API_KEY $REPO_NAME

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "schemaVersion": "v1"
+  },
+  "resources": {
+    "ML_MODEL": [
+      {
+        "resourceName": "ART_-_SN_rIHPQx",
+        "parents": {},
+        "model": {
+          "commonFilter": "",
+          "commandLineParameters": [],
+          "intervalUnit": "WEEK",
+          "exportOffset": "PT0S",
+          "exportPeriod": "P3M",
+          "modelName": "generated_a4889095c30e6735a983dcabcdbc82a1",
+          "searchEventFilter": "",
+          "modelDisplayName": "ART - SN",
+          "customEventFilter": "",
+          "engineId": "topclicks",
+          "intervalTime": 1
+        }
+      },
+      {
+        "resourceName": "CommunityDNE_5Av97q",
+        "parents": {},
+        "model": {
+          "commonFilter": "",
+          "commandLineParameters": [],
+          "intervalUnit": "MONTH",
+          "viewEventFilter": "",
+          "exportPeriod": "P3M",
+          "modelName": "bec30ba1_6651_4d7f_b36d_eb27bea2b4d3",
+          "searchEventFilter": "",
+          "modelDisplayName": "CommunityDNE",
+          "customEventFilter": "",
+          "engineId": "facetsense",
+          "intervalTime": 1
+        }
+      },
+      {
+        "resourceName": "default-model_8qTxAb",
+        "parents": {},
+        "model": {
+          "commonFilter": "",
+          "commandLineParameters": [],
+          "intervalUnit": "WEEK",
+          "exportOffset": "P1D",
+          "exportPeriod": "P3M",
+          "modelName": "generated_290c06d003169650be0797a5d073f2a5",
+          "searchEventFilter": "",
+          "modelDisplayName": "default-model",
+          "customEventFilter": "",
+          "engineId": "topclicks",
+          "intervalTime": 1
+        }
+      },
+      {
+        "resourceName": "generated_35eb7318fb000bbd6528b62f711265dc_OnxqqA",
+        "parents": {},
+        "model": {
+          "commonFilter": "",
+          "commandLineParameters": [
+            "--conf",
+            "coveo.drill.filterFields.0="
+          ],
+          "intervalUnit": "WEEK",
+          "exportOffset": "PT0S",
+          "viewEventFilter": "",
+          "exportPeriod": "P3M",
+          "modelName": "generated_35eb7318fb000bbd6528b62f711265dc",
+          "searchEventFilter": "",
+          "modelDisplayName": "generated_35eb7318fb000bbd6528b62f711265dc",
+          "customEventFilter": "",
+          "engineId": "querysuggest",
+          "intervalTime": 1
+        }
+      },
+      {
+        "resourceName": "mySpeedbit_d6nZXq",
+        "parents": {},
+        "model": {
+          "commonFilter": "(originLevel1=~'speedbit-community-enterprise' OR originLevel1=~'mySpeedbit')",
+          "commandLineParameters": [
+            "--conf",
+            "coveo.drill.filterFields.0="
+          ],
+          "intervalUnit": "DAY",
+          "viewEventFilter": "",
+          "exportPeriod": "P3M",
+          "modelName": "9e46381c_bcd6_41e2_b382_325adaac4db2",
+          "searchEventFilter": "",
+          "modelDisplayName": "mySpeedbit",
+          "customEventFilter": "",
+          "engineId": "topclicks",
+          "intervalTime": 1
+        }
+      }
+    ]
+  }
+}

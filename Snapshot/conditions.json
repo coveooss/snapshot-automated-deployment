@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "schemaVersion": "v1"
+  },
+  "resources": {
+    "QUERY_PIPELINE_CONDITION": [
+      {
+        "resourceName": "when_$context[UserRole]_is_\"\"_MWI1sq",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $context[UserRole] is \"\""
+        }
+      },
+      {
+        "resourceName": "when_$context[UserRole]_is_\"new-customer\"_dBwV0J",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $context[UserRole] is \"new-customer\""
+        }
+      },
+      {
+        "resourceName": "when_$context[UserRole]_is_\"sales-rep\"_qALjes",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $context[UserRole] is \"sales-rep\""
+        }
+      },
+      {
+        "resourceName": "when_$context[demoscenario]_is_true_uM4YBv",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $context[demoscenario] is true"
+        }
+      },
+      {
+        "resourceName": "when_$context_[subject]_contains_\"Walking_dead_\"_0aUPUu",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $context [subject] contains \"Walking dead \""
+        }
+      },
+      {
+        "resourceName": "when_$originalQuery_contains_\"rfp\"_PE1Wxj",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $originalQuery contains \"rfp\""
+        }
+      },
+      {
+        "resourceName": "when_$query_contains_\"cancel\"_mzrcC8",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when $query contains \"cancel\""
+        }
+      },
+      {
+        "resourceName": "when_$searchHub_is_\"mySpeedbit\"_OtbjLX",
+        "parents": {},
+        "model": {
+          "definition": "when $searchHub is \"mySpeedbit\""
+        }
+      },
+      {
+        "resourceName": "when_(_$context_[demointerests]_contains_\"24/7_Heart_Rate_Tracking\"_)_vNXqxv",
+        "parents": {},
+        "model": {
+          "description": "User's implicit (e.g. inferred thru visits to product page) or explicit (e.g. register specific products) behavior indicates which device(s) should be used to influence most relevant results.",
+          "definition": "when ( $context [demointerests] contains \"24/7 Heart Rate Tracking\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_$context_[demointerests]_contains_\"Blaze\"_)_hIoWnS",
+        "parents": {},
+        "model": {
+          "description": "User's implicit (e.g. inferred thru visits to product page) or explicit (e.g. register specific products) behavior indicates which device(s) should be used to influence most relevant results.",
+          "definition": "when ( $context [demointerests] contains \"Blaze\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_$context_[demointerests]_contains_\"Built-In_GPS\"_)_vEnq8y",
+        "parents": {},
+        "model": {
+          "description": "User's implicit (e.g. inferred thru visits to product page) or explicit (e.g. register specific products) behavior indicates which device(s) should be used to influence most relevant results.",
+          "definition": "when ( $context [demointerests] contains \"Built-In GPS\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_$context_[demointerests]_contains_\"versa\"_)_iZkurG",
+        "parents": {},
+        "model": {
+          "description": "User's implicit (e.g. inferred thru visits to product page) or explicit (e.g. register specific products) behavior indicates which device(s) should be used to influence most relevant results.",
+          "definition": "when ( $context [demointerests] contains \"versa\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when ( $query contains \"How to begin working out\" or $query contains \"How do I workout\" or $query contains \"How do I begin workout\" or $query contains \"How do I begin working out\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_)_zkXcPy",
+        "parents": {},
+        "model": {
+          "definition": "when ( $searchHub is \"x_searchpage_speedbit\" or $searchHub is \"speedbit-community-enterprise\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_or_$searchHub_is_\"mySpeedbit\"_or_$searchHub_is_\"communityfreesearch\"_or_$searchHub_is_\"speedbitenterprisesearch\"_)_hT4RvS",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when ( $searchHub is \"x_searchpage_speedbit\" or $searchHub is \"speedbit-community-enterprise\" or $searchHub is \"mySpeedbit\" or $searchHub is \"communityfreesearch\" or $searchHub is \"speedbitenterprisesearch\" )"
+        }
+      },
+      {
+        "resourceName": "when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW",
+        "parents": {},
+        "model": {
+          "description": "",
+          "definition": "when ( ( $searchHub contains \"x_searchpage_speedbit\" or $searchHub contains \"speedbit-community-enterprise\" ) and $referrer contains \"blaze\" or $context [productOwned] contains \"Blaze\" )"
+        }
+      }
+    ]
+   }
+}
