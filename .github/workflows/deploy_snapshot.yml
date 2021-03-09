@@ -40,7 +40,7 @@ jobs:
         env:
           # Importing the secrets and using variables for easy configuration
           API_KEY: ${{secrets.API_KEY}}
-          ORG_ID: snapshotdemoab6i8zqgq
+          ORG_ID: MY_ORG_ID
           REPO_NAME: ${{ github.event.repository.name }}
         run: |
           python deploy.py $ORG_ID $API_KEY $REPO_NAME

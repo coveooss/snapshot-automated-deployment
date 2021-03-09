@@ -17,7 +17,7 @@ print(f"Running deployment script with org ID: {org_id} and repo name: {repo_nam
 headers = {'Authorization': f"Bearer {api_key}", 'accept': 'application/json'}
 fileobj = open('./Snapshot.zip', 'rb')
 
-url = f'https://platformdev.cloud.coveo.com/rest/organizations/{org_id}/snapshots/file?developerNotes=New%20merge%20in%20{repo_name}&snapshotFileType=ZIP'
+url = f'https://platform.cloud.coveo.com/rest/organizations/{org_id}/snapshots/file?developerNotes=New%20merge%20in%20{repo_name}&snapshotFileType=ZIP'
 
 r = requests.post(url, headers=headers, files={"file": fileobj})
 
