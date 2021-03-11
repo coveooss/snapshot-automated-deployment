@@ -18,7 +18,7 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2
 
-      # Create a new Coveo Snapshot from the updated content of the master branch
+      # Creates a new Coveo snapshot from the updated content of the master branch
       - name: Create a new Coveo Snapshot from the updated content of the master branch
         run: |
           echo Zipping snapsho content into archive
