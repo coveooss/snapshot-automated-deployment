@@ -4,7 +4,7 @@ This demo contains a snapshot split into multiple JSON files that together creat
 
 A GitHub Action is also available 
 
-## Fork the repo
+## Fork the Repo
 
 ## Create an API Key
 An API key will be used to communicate with the Coveo platform and deploy your snapshots. If you need help, this documentation is a good starting place https://docs.coveo.com/en/1718/manage-an-organization/manage-api-keys. When is comes to deciding which privilege to assign to your API key, you'll need to add Edit All for every type of resources that you want to deploy with your snapshot.
