@@ -1,4 +1,4 @@
-# Deploys a Coveo Snapshot when merging in master
+# Deploys a Coveo snapshot when merging in master
 
 name: CI
 
