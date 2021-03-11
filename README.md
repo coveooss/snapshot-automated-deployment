@@ -1,6 +1,6 @@
 # Resource Snapshot Demo
 
-This demo contains a snapshot split into multiple JSON files that together create a query pipeline with many rules and machine learning models. The query pipeline also comes with an A/B that is configured in a separate JSON file.
+This demo contains a snapshot split into multiple JSON files that together create a query pipeline with multiple rules and Machine Learning models. The query pipeline also comes with an A/B test that is configured in a separate JSON file.
 
 A GitHub Action is also available 
 
