@@ -24,7 +24,7 @@ jobs:
           echo Zipping snapsho content into archive
           zip -r Snapshot.zip $GITHUB_WORKSPACE/Snapshot
       
-      # Install the required version of Python
+      # Installs the required version of Python
       - name: setup python
         uses: actions/setup-python@v2
         with:
