@@ -11,7 +11,7 @@ An API key is required to communicate with the Coveo Platform and deploy your sn
 
 > For this example, you'll need: Edit all fields, Edit all query pipelines, Edit all Machine Learning models, and View organization.
 
-## Store the API key as a GitHub secret
+## Store the API Key as a GitHub Secret
 You should follow this documentation to add a new secret named API_KEY that will take the key that you just created as its value. https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
 
 ## Update the GitHub Action
