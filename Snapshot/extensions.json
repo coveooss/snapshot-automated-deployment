@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "schemaVersion": "v1"
+  },
+  "resources": {
+    "EXTENSION": [
+      {
+        "resourceName": "String_to_Decimal_Converted_7Deg1K",
+        "parents": {},
+        "model": {
+          "name": "String to Decimal Converted",
+          "description": "",
+          "language": "PYTHON3",
+          "requiredDataStreams": [],
+          "content": "#Generic Functions\nimport re\ndef GetMetaDataStringValue( meta_data_key ):\n    return ''.join(document.get_meta_data_value(meta_data_key))\n\n#Convert pokhp\npokhp = GetMetaDataStringValue(\\\"pokhp\\\")\nlog(pokhp)\n\nif pokhp:\n    pokhpNumeric = int(pokhp)\n    document.add_meta_data({\\\"pokhp\\\": pokhpNumeric})"
+        }
+      }
+    ]
+  }
+}
