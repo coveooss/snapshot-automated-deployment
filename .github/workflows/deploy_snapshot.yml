@@ -38,7 +38,7 @@ jobs:
       # Runs the python deployment script
       - name: execute deploy script 
         env:
-          # Importing the secrets and using variables for easy configuration
+          # Imports the secrets and uses variables for easy configuration
           API_KEY: ${{secrets.API_KEY}}
           ORG_ID: MY_ORG_ID
           REPO_NAME: ${{ github.event.repository.name }}
